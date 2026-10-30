@@ -1,0 +1,34 @@
+/* Dark Gaming Neon — Pterodactyl 1.15.2 overlay theme (original work, built on stock views) */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Rajdhani:wght@500;600;700&display=swap');
+html, body { background: #0a0e14 !important; color: #e5e7eb !important; font-family: 'Rajdhani', system-ui, sans-serif !important; }
+body { background: #0a0e14 !important; }
+a { color: #39ff14 !important; }
+::selection { background: #39ff14; color: #06130a; }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: #39ff14; border-radius: 8px; }
+::-webkit-scrollbar-track { background: #111827; }
+h1, h2, h3, .content-header h1, .box-title { font-family: 'Orbitron', sans-serif !important; }
+.skin-blue .main-header .navbar { background: #0d1220 !important; }
+.skin-blue .main-header .logo { background: #39ff14 !important; color: #06130a !important; }
+.skin-blue .main-sidebar, .skin-blue .left-side { background: #0d1220 !important; }
+.skin-blue .sidebar-menu > li > a { color: #e5e7eb !important; }
+.skin-blue .sidebar-menu > li.active > a, .skin-blue .sidebar-menu > li:hover > a { background: #39ff14 !important; color: #06130a !important; border-left-color: #a855f7 !important; }
+.content-wrapper, .right-side { background: #0a0e14 !important; }
+.box { background: #111827 !important; border-color: #1f2937 !important; border-radius: 8px; }
+.box-header, .box-body, .box-footer { background: transparent !important; color: #e5e7eb !important; }
+.btn-primary { background: #39ff14 !important; border-color: #39ff14 !important; color: #06130a !important; }
+.btn-primary:hover { background: #a855f7 !important; border-color: #a855f7 !important; }
+.table, .table th, .table td { color: #e5e7eb !important; border-color: #1f2937 !important; }
+.text-muted { color: #9ca3af !important; }
+.bg-blue-600 { background-color: #39ff14 !important; }
+.bg-blue-500 { background-color: #a855f7 !important; }
+.bg-blue-700 { background-color: #39ff14 !important; }
+.text-blue-400, .text-blue-500 { color: #39ff14 !important; }
+.bg-neutral-900 { background-color: #111827 !important; }
+.bg-neutral-800 { background-color: #0a0e14 !important; }
+.border-neutral-700, .border-neutral-800 { border-color: #1f2937 !important; }
+
+/* neon glow */
+.btn-primary, .box { box-shadow: 0 0 18px rgba(57,255,20,.28), 0 0 42px rgba(168,85,247,.16) !important; }
+.content-header h1, h1 { text-shadow: 0 0 12px rgba(57,255,20,.55) !important; letter-spacing: .04em; }
+.skin-blue .main-header .logo { box-shadow: 0 0 22px rgba(57,255,20,.45) !important; }
