@@ -1,0 +1,35 @@
+/* Royal Gold — Pterodactyl 1.15.2 overlay theme (original work, built on stock views) */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600&display=swap');
+html, body { background: #0c0a09 !important; color: #fafaf9 !important; font-family: 'Inter', system-ui, sans-serif !important; }
+body { background: #0c0a09 !important; }
+a { color: #d4af37 !important; }
+::selection { background: #d4af37; color: #1a1405; }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: #d4af37; border-radius: 8px; }
+::-webkit-scrollbar-track { background: #1c1917; }
+h1, h2, h3, .content-header h1, .box-title { font-family: 'Playfair Display', serif !important; }
+.skin-blue .main-header .navbar { background: #14100a !important; }
+.skin-blue .main-header .logo { background: #d4af37 !important; color: #1a1405 !important; }
+.skin-blue .main-sidebar, .skin-blue .left-side { background: #14100a !important; }
+.skin-blue .sidebar-menu > li > a { color: #fafaf9 !important; }
+.skin-blue .sidebar-menu > li.active > a, .skin-blue .sidebar-menu > li:hover > a { background: #d4af37 !important; color: #1a1405 !important; border-left-color: #f5d576 !important; }
+.content-wrapper, .right-side { background: #0c0a09 !important; }
+.box { background: #1c1917 !important; border-color: #57534e !important; border-radius: 6px; }
+.box-header, .box-body, .box-footer { background: transparent !important; color: #fafaf9 !important; }
+.btn-primary { background: #d4af37 !important; border-color: #d4af37 !important; color: #1a1405 !important; }
+.btn-primary:hover { background: #f5d576 !important; border-color: #f5d576 !important; }
+.table, .table th, .table td { color: #fafaf9 !important; border-color: #57534e !important; }
+.text-muted { color: #d6c58a !important; }
+.bg-blue-600 { background-color: #d4af37 !important; }
+.bg-blue-500 { background-color: #f5d576 !important; }
+.bg-blue-700 { background-color: #d4af37 !important; }
+.text-blue-400, .text-blue-500 { color: #d4af37 !important; }
+.bg-neutral-900 { background-color: #1c1917 !important; }
+.bg-neutral-800 { background-color: #0c0a09 !important; }
+.border-neutral-700, .border-neutral-800 { border-color: #57534e !important; }
+
+/* luxury: gold hairlines, serif headings, no glow */
+.box { border: 1px solid #d4af37 !important; box-shadow: 0 2px 18px rgba(212,175,55,.14) !important; }
+.btn-primary { border: 1px solid #f5d576 !important; letter-spacing: .04em !important; }
+h1, h2, h3, .content-header h1, .box-title { letter-spacing: .02em !important; }
+.content-header { border-bottom: 1px solid rgba(212,175,55,.45) !important; }
