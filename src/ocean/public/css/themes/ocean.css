@@ -1,0 +1,36 @@
+/* Ocean — Pterodactyl 1.15.2 overlay theme (original work, built on stock views) */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Manrope:wght@400;500;600&display=swap');
+html, body { background: #082f49 !important; color: #ecfeff !important; font-family: 'Manrope', system-ui, sans-serif !important; }
+body { background: #082f49 !important; }
+a { color: #2dd4bf !important; }
+::selection { background: #2dd4bf; color: #03282e; }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: #2dd4bf; border-radius: 8px; }
+::-webkit-scrollbar-track { background: #0c4a6e; }
+h1, h2, h3, .content-header h1, .box-title { font-family: 'Outfit', sans-serif !important; }
+.skin-blue .main-header .navbar { background: #083344 !important; }
+.skin-blue .main-header .logo { background: #2dd4bf !important; color: #03282e !important; }
+.skin-blue .main-sidebar, .skin-blue .left-side { background: #083344 !important; }
+.skin-blue .sidebar-menu > li > a { color: #ecfeff !important; }
+.skin-blue .sidebar-menu > li.active > a, .skin-blue .sidebar-menu > li:hover > a { background: #2dd4bf !important; color: #03282e !important; border-left-color: #38bdf8 !important; }
+.content-wrapper, .right-side { background: #082f49 !important; }
+.box { background: #0c4a6e !important; border-color: #155e75 !important; border-radius: 14px; }
+.box-header, .box-body, .box-footer { background: transparent !important; color: #ecfeff !important; }
+.btn-primary { background: #2dd4bf !important; border-color: #2dd4bf !important; color: #03282e !important; }
+.btn-primary:hover { background: #38bdf8 !important; border-color: #38bdf8 !important; }
+.table, .table th, .table td { color: #ecfeff !important; border-color: #155e75 !important; }
+.text-muted { color: #67e8f9 !important; }
+.bg-blue-600 { background-color: #2dd4bf !important; }
+.bg-blue-500 { background-color: #38bdf8 !important; }
+.bg-blue-700 { background-color: #2dd4bf !important; }
+.text-blue-400, .text-blue-500 { color: #2dd4bf !important; }
+.bg-neutral-900 { background-color: #0c4a6e !important; }
+.bg-neutral-800 { background-color: #082f49 !important; }
+.border-neutral-700, .border-neutral-800 { border-color: #155e75 !important; }
+
+/* gentle wave at the bottom of the page background */
+body {
+  background-color: #082f49 !important;
+  background-image: linear-gradient(180deg, #082f49 0%, #0e7490 58%, #0891b2 100%) !important;
+}
+.btn-primary, .box { box-shadow: 0 8px 24px rgba(45,212,191,.22) !important; }
