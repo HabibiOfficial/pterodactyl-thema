@@ -1,0 +1,47 @@
+/* Nebula — Pterodactyl 1.15.2 overlay theme (original work, built on stock views) */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Outfit:wght@400;500;600&display=swap');
+html, body { background: #0b0620 !important; color: #ede9fe !important; font-family: 'Outfit', system-ui, sans-serif !important; }
+body { background: #0b0620 !important; }
+a { color: #8b5cf6 !important; }
+::selection { background: #8b5cf6; color: #ffffff; }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: #8b5cf6; border-radius: 8px; }
+::-webkit-scrollbar-track { background: #171233; }
+h1, h2, h3, .content-header h1, .box-title { font-family: 'Space Grotesk', sans-serif !important; }
+.skin-blue .main-header .navbar { background: #12082e !important; }
+.skin-blue .main-header .logo { background: #8b5cf6 !important; color: #ffffff !important; }
+.skin-blue .main-sidebar, .skin-blue .left-side { background: #12082e !important; }
+.skin-blue .sidebar-menu > li > a { color: #ede9fe !important; }
+.skin-blue .sidebar-menu > li.active > a, .skin-blue .sidebar-menu > li:hover > a { background: #8b5cf6 !important; color: #ffffff !important; border-left-color: #d946ef !important; }
+.content-wrapper, .right-side { background: #0b0620 !important; }
+.box { background: #171233 !important; border-color: #2e1065 !important; border-radius: 14px; }
+.box-header, .box-body, .box-footer { background: transparent !important; color: #ede9fe !important; }
+.btn-primary { background: #8b5cf6 !important; border-color: #8b5cf6 !important; color: #ffffff !important; }
+.btn-primary:hover { background: #d946ef !important; border-color: #d946ef !important; }
+.table, .table th, .table td { color: #ede9fe !important; border-color: #2e1065 !important; }
+.text-muted { color: #a78bfa !important; }
+.bg-blue-600 { background-color: #8b5cf6 !important; }
+.bg-blue-500 { background-color: #d946ef !important; }
+.bg-blue-700 { background-color: #8b5cf6 !important; }
+.text-blue-400, .text-blue-500 { color: #8b5cf6 !important; }
+.bg-neutral-900 { background-color: #171233 !important; }
+.bg-neutral-800 { background-color: #0b0620 !important; }
+.border-neutral-700, .border-neutral-800 { border-color: #2e1065 !important; }
+
+/* starfield + nebula blobs (background layers only, never cover content) */
+body {
+  background-color: #0b0620 !important;
+  background-image:
+    radial-gradient(1px 1px at 12% 22%, #fff 100%, transparent 0),
+    radial-gradient(1px 1px at 32% 68%, #fff 100%, transparent 0),
+    radial-gradient(2px 2px at 52% 18%, #e9d5ff 100%, transparent 0),
+    radial-gradient(1px 1px at 71% 42%, #fff 100%, transparent 0),
+    radial-gradient(2px 2px at 84% 74%, #c4b5fd 100%, transparent 0),
+    radial-gradient(1px 1px at 44% 88%, #fff 100%, transparent 0),
+    radial-gradient(420px 300px at 15% 10%, rgba(139,92,246,.34), transparent 70%),
+    radial-gradient(520px 380px at 88% 82%, rgba(217,70,239,.26), transparent 70%),
+    radial-gradient(560px 420px at 78% 8%, rgba(34,211,238,.20), transparent 70%),
+    linear-gradient(160deg, #0b0620, #1e1b4b 55%, #0b0620) !important;
+}
+h1, h2, h3, .content-header h1 { color: #f5d0fe !important; }
+.btn-primary, .box { box-shadow: 0 0 24px rgba(139,92,246,.38) !important; }
